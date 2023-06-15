@@ -31,13 +31,13 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Move Button"
+                Text="Move RightToLeft Button"
                 Clicked="OnMoveButtonClicked"
                 HorizontalOptions="Center" />
 
             <VerticalStackLayout>
                 <toolkit:DockLayout>
-                    <Button Text="Right"
+                    <Button Text="RightToBottom"
                             toolkit:DockLayout.DockPosition="Right" />
                     <Button x:Name="RightThenLeftButton" Text="RightThenLeft"
                             toolkit:DockLayout.DockPosition="Right" />
